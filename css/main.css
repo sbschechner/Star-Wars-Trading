@@ -1,0 +1,43 @@
+
+nav{
+	background-color:#FBB917;
+	position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+nav > header, {
+	display:block;
+	padding-left:17%;
+	font-family: Roboto;
+	/*HOW DO I GET THE FONT FAMILY FROM GOOGLE API? */
+}
+
+header > h1, header > h3 {
+	margin-left:17%;
+}
+
+.row{
+	position: relative;
+    top: 150px;
+}
+.Card{
+	border: solid #D1D0CE 1px;
+	border-style: groove;
+	margin-bottom:20px;
+
+}
+
+.logoContainer>img{
+	display:block;
+	width:100%;
+}
+
+.Card > h2{
+	margin-left:10px;
+}
+
+.Card > h3{
+	margin-left:10px;
+}
